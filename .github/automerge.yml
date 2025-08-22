@@ -1,0 +1,5 @@
+- match:
+    author: exercism-solutions-syncer
+    branch: "*"
+    autoMerge: true
+    method: squash
