@@ -29,5 +29,5 @@ jobs:
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_FILTER_AUTHOR: "exercism-solutions-syncer"
+          MERGE_FILTER_AUTHOR: "exercism-solutions-syncer[bot]"
           MERGE_LABELS: ""
