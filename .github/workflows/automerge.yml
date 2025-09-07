@@ -31,3 +31,4 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_FILTER_AUTHOR: "exercism-solutions-syncer[bot]"
           MERGE_LABELS: ""
+          MERGE_DELETE_BRANCH : true
